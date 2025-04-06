@@ -9,7 +9,7 @@ class Toolbox(object):
         self.alias = ""
 
         # List of tool classes associated with this toolbox
-        self.tools = [Voronoi_Skeleton, Voronoi_Skeleton_Batch, Trace_rivers, Trace_rivers_by_basin, Prepare_rivers]
+        self.tools = [Voronoi_Skeleton, Voronoi_Skeleton_Batch, Prepare_rivers, Trace_rivers, Trace_rivers_by_basin]
 
 
 class Voronoi_Skeleton(object):
